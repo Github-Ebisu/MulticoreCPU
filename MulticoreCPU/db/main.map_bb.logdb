@@ -1,0 +1,4 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,MultiCore:multi_core_processor|Processor:core[2].CPU|ALU:alu|lpm_mult:Mult0|mult_d8t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,MultiCore:multi_core_processor|Processor:core[1].CPU|ALU:alu|lpm_mult:Mult0|mult_d8t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,MultiCore:multi_core_processor|Processor:core[0].CPU|ALU:alu|lpm_mult:Mult0|mult_d8t:auto_generated|mac_out2,

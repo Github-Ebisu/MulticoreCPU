@@ -1,0 +1,52 @@
+// Khởi tạo các giá trị và địa chỉ
+CLAC
+LDIAC 1 // Địa chỉ của b (số cột của P và số hàng của Q)
+MV_RL_AC // RL = b
+LDIAC 3 // Địa chỉ start của P
+MV_RP_AC // RP = start của P
+LDIAC 4 // Địa chỉ start của Q
+MV_RQ_AC // RQ = start của Q
+LDIAC 5 // Địa chỉ start của R
+MV_R_AC  // R = start của R
+
+// Lặp qua từng hàng của ma trận P
+LOOP_A:
+  CLAC
+  MV_R_AC  // R vào AC
+  MV_RC_AC // RC vào AC (để lấy giá trị cột hiện tại)
+  MV_AC_RP // AC = P[current address of P]
+  STIR 9   // Lưu trữ giá trị của AC vào current address của P
+
+  // Lặp qua từng cột của ma trận Q
+  LOOP_B:
+    CLAC
+    MV_R1_AC   // R1 vào AC
+    MV_AC_RQ   // AC = Q[current address of Q]
+    LDAC       // AC = AC * R1
+    MUL
+    ADD        // AC = AC + R
+    MV_R_AC    // AC vào R
+    MV_AC_RL   // AC vào RL
+    SUB        // AC = AC - RC
+    JMPNZ LOOP_B // Nếu Z-flag != 0, lặp lại
+
+  // Lưu trữ kết quả vào ma trận R
+  CLAC
+  MV_R_AC   // R vào AC
+  STIR 11   // Lưu trữ giá trị của AC vào current address của R
+
+  INCAC     // Tăng giá trị của AC lên 1
+  MV_R_AC   // AC vào R
+  STIR 11   // Lưu trữ giá trị của AC vào current address của R
+
+  // Kiểm tra nếu đã duyệt hết các hàng của ma trận P
+  CLAC
+  MV_R_AC   // R vào AC
+  MV_RC_AC  // RC vào AC (để lấy giá trị cột hiện tại)
+  LDAC      // AC = AC + 1
+  INCAC
+  SUB
+  JMPNZ LOOP_A // Nếu Z-flag != 0, lặp lại
+
+// Kết thúc chương trình
+ENDOP

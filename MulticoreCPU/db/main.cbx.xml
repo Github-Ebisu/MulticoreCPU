@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="main">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Top|DataMemory:DM|altsyncram:memory_rtl_0" CBX_FILE_NAME="altsyncram_9391.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Top|MultiCore:multi_core_processor|Processor:core[0].CPU|ALU:alu|lpm_mult:Mult0" CBX_FILE_NAME="mult_d8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Top|MultiCore:multi_core_processor|Processor:core[1].CPU|ALU:alu|lpm_mult:Mult0" CBX_FILE_NAME="mult_d8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Top|MultiCore:multi_core_processor|Processor:core[2].CPU|ALU:alu|lpm_mult:Mult0" CBX_FILE_NAME="mult_d8t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

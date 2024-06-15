@@ -1,0 +1,52 @@
+module MultiCore #(
+    parameter CORE_COUNT = 4,
+    parameter MEM_WIDTH = 12,
+    parameter INS_WIDTH = 8,
+    parameter MEM_ADDR = 12,
+    parameter INS_ADDR = 8
+)
+(
+    input clock,reset,start,
+    input [MEM_WIDTH*CORE_COUNT-1:0] ProcessorDataIn,
+    input [INS_WIDTH-1:0] InsMemOut,
+    output [MEM_WIDTH*CORE_COUNT-1:0] ProcessorDataOut,
+    output [INS_ADDR-1:0] InsAddr,
+    output [MEM_ADDR-1:0] MemAddr,
+    output DataMemoryWriteEnable, ready, done
+);
+
+wire core_DataMemWrEn[0:CORE_COUNT-1]; 
+wire core_done[0:CORE_COUNT-1];
+wire core_ready[0:CORE_COUNT-1];
+wire [MEM_ADDR-1:0] core_dataMemAddr[0:CORE_COUNT-1];
+wire [INS_ADDR-1:0] core_InsMemAddr[0:CORE_COUNT-1];
+
+
+genvar i;
+generate
+    for (i=0;i<CORE_COUNT; i=i+1) begin:core
+        Processor #(
+            .MEM_WIDTH(MEM_WIDTH), 
+            .INS_WIDTH(INS_WIDTH), 
+            .MEM_ADDR(MEM_ADDR),
+            .INS_ADDR(INS_ADDR) 
+            )
+             CPU(
+            .clock(clock), .reset(reset), .start(start), 
+            .fromDataMem(ProcessorDataIn[MEM_WIDTH*i+:MEM_WIDTH]),// Luu ys 
+            .fromInsMem(InsMemOut),  
+            .MemAddr(core_dataMemAddr[i]), 
+            .InsAddr(core_InsMemAddr[i]), 
+            .toDataMem(ProcessorDataOut[REG_WIDTH*i+:REG_WIDTH]), 
+            .DataMemoryWriteEnable(core_DataMemWrEn[i]), 
+            .done(core_done[i]), .ready(core_ready[i]) ); 
+    end
+endgenerate
+
+assign dataMemAddr = core_dataMemAddr[0];
+assign DataMemWrEn = core_DataMemWrEn[0];
+assign insMemAddr = core_InsMemAddr[0];
+assign ready = core_ready[0];
+assign done = core_done[0];
+
+endmodule //multi_core_processor

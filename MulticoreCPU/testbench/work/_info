@@ -1,0 +1,537 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/lession/TapVerilog/Lab/Lab456
+vALU
+Z0 !s110 1703754919
+!i10b 1
+!s100 [H7m<8j42LCM]9ZQ?FizI0
+IICfC]7k;B2GaTTX6MO5`B1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dF:/lession/TapVerilog/MulticoreCPU/testbench
+w1703658586
+8F:/lession/TapVerilog/MulticoreCPU/modules/ALU.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/ALU.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1703754919.000000
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/ALU.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vALU_tb
+Z7 !s110 1703754918
+!i10b 1
+!s100 zknSUfITdJ;i@lleenG2a1
+IZlSB_>^DHKU]YZDj?9e[90
+R1
+R2
+w1703385174
+8F:/lession/TapVerilog/MulticoreCPU/testbench/ALU_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/ALU_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z8 !s108 1703754918.000000
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/ALU_tb.v|
+!i113 1
+R5
+R6
+n@a@l@u_tb
+vBus
+R0
+!i10b 1
+!s100 ?d544Na0o4MQiD4WlUn1o1
+I6n>CL9;UaIz`0<a>PgM8U2
+R1
+R2
+w1703385215
+8F:/lession/TapVerilog/MulticoreCPU/modules/Bus.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/Bus.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/Bus.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/Bus.v|
+!i113 1
+R5
+R6
+n@bus
+vBus_tb
+R7
+!i10b 1
+!s100 B;eA<4XVEK?Mck7m[dIE;0
+IEgRzRSk@h14<MnCIN0`kW2
+R1
+R2
+w1703385491
+8F:/lession/TapVerilog/MulticoreCPU/testbench/Bus_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/Bus_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/Bus_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/Bus_tb.v|
+!i113 1
+R5
+R6
+n@bus_tb
+vControlUnit
+R0
+!i10b 1
+!s100 @RTnd^jbHHb[_?IP1cdUG2
+IHa:bOKGi0ZBES:GDY4>4i2
+R1
+R2
+w1703617200
+8F:/lession/TapVerilog/MulticoreCPU/modules/ControlUnit.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/ControlUnit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/ControlUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/ControlUnit.v|
+!i113 1
+R5
+R6
+n@control@unit
+vControlUnit_tb
+Z9 !s110 1703754920
+!i10b 1
+!s100 WF9]Kz>E2ld`Lo51En8e70
+I`]DUEB:dPbC9>CGSMoIFj0
+R1
+R2
+w1703695573
+8F:/lession/TapVerilog/MulticoreCPU/testbench/ControlUnit_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/ControlUnit_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z10 !s108 1703754920.000000
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/ControlUnit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/ControlUnit_tb.v|
+!i113 1
+R5
+R6
+n@control@unit_tb
+vcontrolUnit_tb
+!s110 1703694576
+!i10b 1
+!s100 _a;JBz>[YPfCCE2RW2Kzi1
+Ih@a@zG97K[j0eY@:JXVi^1
+R1
+R2
+w1703617195
+8F:/lession/TapVerilog/MulticoreCPU/testbench/controlUnit_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/controlUnit_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1703694576.000000
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/controlUnit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/controlUnit_tb.v|
+!i113 1
+R5
+R6
+ncontrol@unit_tb
+vDataMemory
+R0
+!i10b 1
+!s100 Y:1c@H`]90RdMCPBLAbcA3
+I6VT@lQDQd_ANVQ3M:Vo9`0
+R1
+R2
+w1703738649
+8F:/lession/TapVerilog/MulticoreCPU/modules/DataMemory.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/DataMemory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/DataMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/DataMemory.v|
+!i113 1
+R5
+R6
+n@data@memory
+vDataMemory_tb
+R0
+!i10b 1
+!s100 EC1B[d^eJL24ICMCA812[2
+I2faMNWP7]?_@nhL_@V<fV3
+R1
+R2
+w1703735653
+8F:/lession/TapVerilog/MulticoreCPU/testbench/DataMemory_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/DataMemory_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/DataMemory_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/DataMemory_tb.v|
+!i113 1
+R5
+R6
+n@data@memory_tb
+vincRegister
+R0
+!i10b 1
+!s100 0U[1UOzEiSVa8I=f=[?dW0
+IYEXXooF;b4LOUdWBgaB@O3
+R1
+R2
+w1701329194
+8F:/lession/TapVerilog/MulticoreCPU/modules/incRegister.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/incRegister.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/incRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/incRegister.v|
+!i113 1
+R5
+R6
+ninc@register
+vincRegister_tb
+R7
+!i10b 1
+!s100 KnAj:aVWQK141jn=c:NPn1
+ITi8L`cZa2WQTm22XPjFY60
+R1
+R2
+w1703697038
+8F:/lession/TapVerilog/MulticoreCPU/testbench/incRegister_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/incRegister_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/incRegister_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/incRegister_tb.v|
+!i113 1
+R5
+R6
+ninc@register_tb
+vInsMemory
+R0
+!i10b 1
+!s100 iCnh^TV_XOW=nT:J_dHQj3
+IBXZTOX9JO6^_j:1?DY:_B2
+R1
+R2
+w1703738659
+8F:/lession/TapVerilog/MulticoreCPU/modules/InsMemory.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/InsMemory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/InsMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/InsMemory.v|
+!i113 1
+R5
+R6
+n@ins@memory
+vInsMemory_tb
+R0
+!i10b 1
+!s100 M]7B9e>Um;VS1[d>9a1<31
+IDG3]IJ9dA91@jM]KaZ;;62
+R1
+R2
+w1703618995
+8F:/lession/TapVerilog/MulticoreCPU/testbench/InsMemory_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/InsMemory_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/InsMemory_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/InsMemory_tb.v|
+!i113 1
+R5
+R6
+n@ins@memory_tb
+visZeroReg
+R0
+!i10b 1
+!s100 1DL@HiQfOCzC>1WQ9fhNK0
+In@Bo]UPYfZO89zcnZ7HMQ0
+R1
+R2
+w1703657663
+8F:/lession/TapVerilog/MulticoreCPU/modules/isZeroReg.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/isZeroReg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/isZeroReg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/isZeroReg.v|
+!i113 1
+R5
+R6
+nis@zero@reg
+visZeroReg_tb
+R7
+!i10b 1
+!s100 NHQQMDo?8U@Rb9[=_86R>0
+I8Qf_>4W4SkFXzZff1;0A^0
+R1
+R2
+w1703697845
+8F:/lession/TapVerilog/MulticoreCPU/testbench/isZeroReg.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/isZeroReg.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/isZeroReg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/isZeroReg.v|
+!i113 1
+R5
+R6
+nis@zero@reg_tb
+vmulti_core_tb
+!s110 1703661099
+!i10b 1
+!s100 V<mVSB>[<:NG_ijb:i`I?0
+IiAW=M5;mK6eT2nh<N7lLd3
+R1
+R2
+w1703651308
+8F:/lession/TapVerilog/MulticoreCPU/testbench/multi_core_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/multi_core_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1703661099.000000
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/multi_core_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/multi_core_tb.v|
+!i113 1
+R5
+R6
+vMultiCore
+R0
+!i10b 1
+!s100 ZC4`_Wd`?=AC?F^RS>L203
+I^Y:[XS9J8PAUaec>VOl[;3
+R1
+R2
+w1703650770
+8F:/lession/TapVerilog/MulticoreCPU/modules/MultiCore.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/MultiCore.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/MultiCore.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/MultiCore.v|
+!i113 1
+R5
+R6
+n@multi@core
+vMultiCore_tb
+R9
+!i10b 1
+!s100 z95D@n[E6QieJPTFDl5hB3
+IbM9D6zG@3iblCUWdbS3>23
+R1
+R2
+w1703694548
+8F:/lession/TapVerilog/MulticoreCPU/testbench/MultiCore_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/MultiCore_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R10
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/MultiCore_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/MultiCore_tb.v|
+!i113 1
+R5
+R6
+n@multi@core_tb
+vProcessor
+R0
+!i10b 1
+!s100 `jKJNlEfGZNHo>@39nP=K1
+I>A<Cd>?9k[YM5dnQNKFUa3
+R1
+R2
+w1703656649
+8F:/lession/TapVerilog/MulticoreCPU/modules/Processor.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/Processor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/Processor.v|
+!i113 1
+R5
+R6
+n@processor
+vRAM
+R0
+!i10b 1
+!s100 Hjoed];hBZYmhM8W<2;n[2
+I9>CI<:81QBTcQYE3<IU?i3
+R1
+R2
+w1701328828
+8F:/lession/TapVerilog/MulticoreCPU/modules/RAM.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/RAM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/RAM.v|
+!i113 1
+R5
+R6
+n@r@a@m
+vRegister
+R0
+!i10b 1
+!s100 VmCHP3C^bf4]zQhjKU=Lg1
+IUV258@o3Ic<m369Gm<WIZ2
+R1
+R2
+w1703658658
+8F:/lession/TapVerilog/MulticoreCPU/modules/Register.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/Register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/Register.v|
+!i113 1
+R5
+R6
+n@register
+vRegister_tb
+R0
+!i10b 1
+!s100 =Elki4U`9ma<7[AER6l9D0
+I7nI8i9Ni^NkihB]CXE6b`1
+R1
+R2
+w1703696137
+8F:/lession/TapVerilog/MulticoreCPU/testbench/Register_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/Register_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/Register_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/Register_tb.v|
+!i113 1
+R5
+R6
+n@register_tb
+vTop
+R0
+!i10b 1
+!s100 @?7JSUDWU=j?Mc5_bf>Cc0
+I`hLmA7GC8Yz5eh^L93]^f0
+R1
+R2
+w1703642477
+8F:/lession/TapVerilog/MulticoreCPU/modules/Top.v
+FF:/lession/TapVerilog/MulticoreCPU/modules/Top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/modules/Top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/modules/Top.v|
+!i113 1
+R5
+R6
+n@top
+vTop_tb
+R0
+!i10b 1
+!s100 K21RIWY3Fdc=hWaXHE:]f1
+IfW1J=>N[hD[FcUzGN9:Sg3
+R1
+R2
+w1703754913
+8F:/lession/TapVerilog/MulticoreCPU/testbench/Top_tb.v
+FF:/lession/TapVerilog/MulticoreCPU/testbench/Top_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/lession/TapVerilog/MulticoreCPU/testbench/Top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/lession/TapVerilog/MulticoreCPU/testbench/Top_tb.v|
+!i113 1
+R5
+R6
+n@top_tb
